@@ -1,0 +1,64 @@
+{% extends "templates.html" %} {% block conteudo %}
+
+        <form action="{{ url_for('tabela') }}" method="post">
+            <fieldset>
+                <div>
+                    <label for="ano" class="ano">Ano</label>
+                    <input
+                        type="number"
+                        min="2021"
+                        max="2022"
+                        id="ano"
+                        name="ano"
+                        class="input_ano"
+                        placeholder="2021 ou 2022"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="salario" class="salario">Salario</label>
+                    <input
+                        type="number"
+                        step="any"
+                        min="0"
+                        id="salario"
+                        name="salario"
+                        class="input_salario"
+                        required
+                    />
+                </div>
+                <div>
+                    <button
+                        type="submit"
+                        class="botao"
+                    >
+                        Calcular
+                    </button>
+                </div>
+                <table class="tabela">
+                    <thead>
+                        <tr>
+                            <th class="th1">Ano</th>
+                            <th class="th1">Salario</th>
+                            <th class="th1">Resultado</th>
+                            <th class="th1">Valor do INSS</th>
+                            <th class="th1">Aliquota em %</th>
+                        </tr>
+                    </thead>
+                <tbody class="corpo_tabela">
+                    {% for ano_salario in AnoeSalario %}
+                    <tr>
+                        <td class="th1">{{ ano_salario.ano }}</td>
+                        <td class="th1">{{ ano_salario.salario }}</td>
+                        <td class="th1">{{ ano_salario.resultado }}</td>
+                        <td class="th1">{{ ano_salario.valor_inss }}</td>
+                        <td class="th1">{{ ano_salario.aliq }}</td>
+                    </tr>
+
+                    {% endfor %}
+                </tbody>
+        </table>
+            </fieldset>
+        </form>
+
+{% endblock %}

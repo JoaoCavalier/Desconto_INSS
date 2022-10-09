@@ -1,0 +1,77 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-header {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background: black;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+.ano, .salario {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.input_ano, .input_salario{
+
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 25px;
+    width: 10%;
+    font-size: 20px;
+}
+
+.botao {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 0 15px;
+    background: coral;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: orangered;
+    transform: scale(1.2);
+}
+
+.tabela {
+    margin-top: 5%;
+    font-size: 30px;
+    border: black;
+    border-style: inset;
+    width: 100%;
+    background: grey;
+}
+
+.th1 {
+    border: black;
+    border-style: inset;
+}
+
+.corpo_tabela {
+    -webkit-text-stroke: 0.5px orange;
+    border: none;
+    border-style: inset;
+    text-align: center;
+    color: black;
+    background: rgb(189, 184, 184)
+}
+
