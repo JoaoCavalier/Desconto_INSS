@@ -17,16 +17,6 @@
   Foi usado como referência sites que já fazem esse cálculo na internet, logo, inserindo um valor válido o código irá lhe devolver não só o desconto
   como também a porcentagem da aliquota e as respectivas faixas de acordo com o valor colocado.
 
-# Mais detalhes 📝
-  É de **importante seguir** a formatação do exemplo a baixo : 
-  
-  * 1212     ✅
-  * 2427.35  ✅
-  * 3641.03  ✅
-  * 7087.22  ✅
-  
-  **Caso isso não seja respeitado ( usando " , " ou letras) o código pedirá novamente um valor válido**
-
 # Linguagem e IDE ⚙️
   A linguagem utilizada foi o **Python** na versão **3.10.6** e de compilador foi usado a IDE **PyCharm**
   
