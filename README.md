@@ -18,13 +18,15 @@
   como também a porcentagem da aliquota e as respectivas faixas de acordo com o valor colocado.
 
 # Linguagem e IDE ⚙️
-  A linguagem utilizada foi o **Python** na versão **3.10.6** e de compilador foi usado a IDE **PyCharm**
+  A linguagem utilizada foi o **Python** na versão **3.10.6** e de compilador foi usado a IDE **PyCharm**, também foi usado o **Flask na versão 2.0.2**
   
   **Recomendo usar a mesma versão de linguagem e a mesma IDE para evitar erros de sintaxe e algum futuro problema de compilação decorrente de alguma IDE diferente!!**
   
   * [Link para Python 3.10.6](https://www.python.org/downloads/)
   
   * [Link para IDE PyCharm](https://www.jetbrains.com/pt-br/pycharm/download/#section=windows)
+  
+  * **O FLASK É INSTALADO DIRETAMENTE NO CONSOLE COM O !PIP INSTALL**
 
 # Referencias 🗂️
   * [Calculadora INSS](https://www.calcule.net/trabalhista/calculo-de-inss/)
